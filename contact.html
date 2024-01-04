@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-white text-dark fixed-top">
+        <div class="container my-3 mx-4">
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Wish</h2>
+            <div class="d-flex d-lg-none d-sm-flex">
+                <img src="images/shopping-bag.svg" style="height: 20px; width: 20px;" alt="">
+                <img src="images/star.svg" style="height: 20px; width: 20px;" alt="">
+                <img src="images/avatar.svg" style="height: 20px; width: 20px;" alt="">
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="margin-left:15%;">
+                    <li class="nav-item row">
+                        <a class="nav-link m-4" href="wish.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-4" href="#clothing.html">CLOTHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-4" href="clothing.html"> ACCESSORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-4" href="#"> LINGERIE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-4" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <form action="#" class="d-flex" style="margin-right: 8%;">
+                    <input type="search" class="search_input menu_mm bg-light border border-none" required="required">
+                    <button type="submit" id="search_button_menu"
+                        class="search_button menu_mm border border-none"><span><img class="menu_mm"
+                                src="images/magnifying-glass.svg" alt=""></span></button>
+                </form>
+            </div>
+            <div class="d-flex d-none d-sm-none d-lg-flex">
+                <img src="images/shopping-bag.svg" style="height: 20px; width: 20px;" alt="">
+                <img src="images/star.svg" style="height: 20px; width: 20px;" alt="">
+                <img src="images/avatar.svg" style="height: 20px; width: 20px;" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 30%;background-color: rgb(246, 241, 234);"><br><br>
+        <h4 class="text-center m-5" style="font-family: Georgia, 'Times New Roman', Times, serif;">GET IN TOUCH</h4>
+        <div class="container">
+            <div class="d-flex">
+                <input class="form-control" type="text" style="height: 50px; width: 30%;" placeholder="Name">
+                <input class="form-control" type="email" style="height: 50px; width: 30%; margin-left: 2%;"
+                    placeholder="E-mail">
+                <input class="form-control" type="text" style="height: 50px; width: 30%; margin-left: 2%;"
+                    placeholder="Subject">
+            </div>
+            <textarea class="form-control mt-4" rows="8" id="comment" name="text" placeholder="Message"></textarea>
+            <button class="btn btn-outline-light mt-5" style="margin-left: 45%;" data-bs-target="#comment">Send
+                Message</button>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">CONTACT INFO</h3><br>
+                <div class="d-flex">
+                    <img src="images/contact_info_1.png" style="width: 3%;" alt="">
+                    <p class="ms-2">Rosia Road, no67, Gibraltar UK</p>
+                </div><br>
+                <div class="d-flex">
+                    <img src="images/contact_info_2.png" style="width: 3%;" alt="">
+                    <p class="ms-2">office@yourbusiness.com</p>
+                </div><br>
+                <div class="d-flex">
+                    <img src="images/contact_info_3.png" style="width: 3%;" alt="">
+                    <p class="ms-2"> +45 7703 29293 34</p>
+                </div>
+                <div class="d-flex mt-5" style="margin-left: 1%;">
+                    <img src="images/3670147.png" style="height: 20px; width: 20px; margin-right: 5%" alt="">
+                    <img src="images/2889676.png" style="height: 20px; width: 20px; margin-right: 5%;" alt="">
+                    <img src="images/717392.png" style="height: 20px; width: 20px; margin-right: 5%;" alt="">
+                    <img src="images/1384005.png" style="height: 20px; width: 20px; margin-right: 5%;" alt="">
+                    <img src="images/1077976.png" style="height: 20px; width: 20px; margin-right: 5%;" alt="">
+                </div>
+            </div>
+            <div class="col mt-5">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">FAQ</h3><br>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne" style="background-color: #937c6f; color: white;">
+                                Lorem ipsum dolor sit amet, consectetur?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum.
+                                Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui
+                                porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget,
+                                accumsan justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo"  style="background-color: #937c6f; color: white;">
+                                Ipsum dolor sit amet, consectetur?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum.
+                                Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui
+                                porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget,
+                                accumsan justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree"  style="background-color: #937c6f;color: white;">
+                                Proin eu dui porta, pretium metus vitae?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum.
+                                Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui
+                                porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget,
+                                accumsan justo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-image: url(images/newsletter.jpg); position: relative; width: 100%;">
+        <div class="col-12 col-sm-12 col-lg-12 col-md-8 ">
+          <div class="text1 text-white">
+            ONLY THE BEST
+            <h2>SUBSCRIBE FOR A 20% DISCOUNT</h2>
+            <form action="">
+              <input class="col-12 col-sm-4 col-lg-10 col-md-6 p-3" type="text" class="form-control" placeholder="Email">
+              <a href="#" class="btn btn-secondary p-4">SUBSCRIBE</a>
+            </form>
+            <p>"Integer ut imperdiet erat. Quisque ultricies lectus tellus,en tristique magna pharetra nec.Fusce vel lorem
+              libero.Integer ex mi, facilisis sed nisi ut,vestibulum ultricies nulla.Aliquam egestas tempor leo."</p>
+          </div>
+        </div>
+      </div>
+    <div class="container text-center mt-5">
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Wish</h3>
+        <nav>
+            <a href="#" style="text-decoration: none;color: #937c6f; margin-left: 3%;">HOME</a>
+            <a href="#" style="text-decoration: none;color: #937c6f; margin-left: 3%;">CLOTHING</a>
+            <a href="#" style="text-decoration: none;color: #937c6f; margin-left: 3%;">ACCESSORIES</a>
+            <a href="#" style="text-decoration: none;color: #937c6f; margin-left: 3%;">LINERIN</a>
+            <a href="#" style="text-decoration: none;color: #937c6f; margin-left: 3%;">CONTACT</a>
+        </nav>
+        <div class="d-flex mt-4" style="margin-left: 35%;">
+            <img src="images/3670147.png" style="height: 20px; width: 20px; margin-right: 10%;" alt="">
+            <img src="images/2889676.png" style="height: 20px; width: 20px; margin-right: 10%;" alt="">
+            <img src="images/717392.png" style="height: 20px; width: 20px; margin-right: 10%;" alt="">
+            <img src="images/1384005.png" style="height: 20px; width: 20px; margin-right: 10%;" alt="">
+            <img src="images/1077976.png" style="height: 20px; width: 20px; margin-right: 10%;" alt="">
+        </div>
+    </div>
+    <footer class="text-center mt-5">
+        <p>Copyright @2023 All right reserved | This template is my by <a href=""
+                style="text-decoration: none;">Colorlib</a></p>
+    </footer>
+</body>
+
+</html>
