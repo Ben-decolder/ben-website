@@ -1,0 +1,30 @@
+
+button:hover{
+    background-color: white;
+}
+.bg{
+    height: 600px;
+    background-position: center;
+}
+ .text{
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+h1:hover{
+    color: #937c6f;
+}
+ .bg2{
+    background-image: url(images/newsletter.jpg);
+    height: 450px;
+}
+.text1{
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+input{
+    height: 100%;
+    margin: 5%;
+    text-align: center;
+} 
